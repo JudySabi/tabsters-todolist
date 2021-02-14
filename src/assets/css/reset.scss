@@ -1,0 +1,136 @@
+/* 
+ - ✔️ Créer un composant React avec des variables d'état afin de stocker ces données
+ - ✔️ Écrire la fonction pour initialiser ton composant
+ - ✔️ Afficher les données du JSON sous la forme de ton choix, un tableau ou une liste par exemple
+ - ✔️ Intégrer la librairie Bootstrap et utiliser quelques classes afin de styliser un peu ton composant
+ - Créer une fonction qui permettra de trier les données par ordre alphabétique qui sera appelée lors d'un click sur un bouton que tu devras créer
+ - ✔️ Créer une fonction qui permettra de filtrer les tâches selon leur statut qui sera appelé lors d'un click sur un des 3 boutons correspondants aux statuts que tu devras créer : To Do, In Progress, Completed
+ - ✔️ Créer une fonction qui permettra de calculer la moyenne des progress des différentes tâches
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+button,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+input,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
