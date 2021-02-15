@@ -1,13 +1,14 @@
 import Task from "./Task";
 
-const ListTask = ({ listTask, filters, setListTask }) => {
+const ListTask = ({ listTask, filters }) => {
   const { completed, inProgress, todo } = filters.status;
   const { alpha } = filters;
   {
     // si le switch est true alors il trie les tasks selon le name
-
     alpha
-      ? listTask.sort((a, b) => (a.name > b.name ? 1 : -1))
+      ? listTask.sort((a, b) =>
+          a.name.localeCompare(b.name, "fr", { ignorePunctuation: true })
+        )
       : listTask.sort((a, b) => (a.id > b.id ? 1 : -1));
   }
   return (

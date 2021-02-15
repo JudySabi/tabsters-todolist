@@ -14,7 +14,7 @@
 
 .header {
   @include flexCenter;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   width: 100vw;
   border-bottom: 1px solid lightgray;
   img {
@@ -24,7 +24,7 @@
 
 .filters {
   @include flexCenter;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   button {
     padding: 15px 20px;
     border-radius: 15px;
@@ -67,16 +67,23 @@
   @include flexCenter;
   margin-top: 50px;
   padding: 10px 0;
-  background-color: #fbca37;
-  color: #ffffff;
+  background-color: lightgray;
 
   span {
-    color: #ffffff;
+    color: #137ca9;
     font-weight: 600;
   }
 }
 
 .alphabetic {
+  @include flexCenter;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
   .switch {
     position: relative;
     display: inline-block;

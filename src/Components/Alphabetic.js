@@ -10,6 +10,7 @@ const Alphabetic = ({ filters, setFilters }) => {
 
   return (
     <div className="alphabetic">
+      <p>A - Z</p>
       <div className="switch">
         <input
           type="checkbox"
