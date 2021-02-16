@@ -1,8 +1,6 @@
-import { useState } from "react";
-
 const Alphabetic = ({ filters, setFilters }) => {
   const handleSwitch = (event) => {
-    // rentre true ou false dans le
+    // rentre true ou false dans le filters
     const newFilters = { ...filters };
     newFilters.alpha = event;
     setFilters(newFilters);
@@ -28,12 +26,3 @@ const Alphabetic = ({ filters, setFilters }) => {
 };
 
 export default Alphabetic;
-
-// {
-//     listTask.map((elem) => {
-//       newAlpha.push(elem.name);
-//       newAlpha.sort();
-//       setListTask(newAlpha);
-//       return listTask;
-//     });
-//   }

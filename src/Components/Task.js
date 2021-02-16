@@ -15,7 +15,6 @@ const Task = ({ data }) => {
           <div className="progress">
             <div
               className="progress-bar"
-              // a régler : pouvoir mettre le pourcentage à la fin du style
               style={{
                 width: data.progress + "%",
                 backgroundColor: data.progress === 100 && "#0fb900",

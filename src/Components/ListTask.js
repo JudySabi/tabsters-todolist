@@ -43,10 +43,3 @@ const ListTask = ({ listTask, filters }) => {
   );
 };
 export default ListTask;
-
-//  {listTask.map((elem) => {
-//         newAlpha.push(elem.name);
-//         newAlpha.sort();
-//         setListTask(newAlpha);
-//         return listTask;
-//       })}
