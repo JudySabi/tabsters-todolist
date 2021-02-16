@@ -47,8 +47,13 @@
     }
   }
 
+  .col {
+    height: 110px;
+  }
+
   .card {
     border-radius: 16px;
+    height: 110px;
   }
   .card-body {
     display: flex;

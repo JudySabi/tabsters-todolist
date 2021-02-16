@@ -25,7 +25,7 @@ const AverageProgress = () => {
   });
 
   // Je calcule la moyenne de mon résultat (300) par le nombre de progress existantes.
-  const moyenne = result / newCount.length;
+  const moyenne = Math.ceil(result / newCount.length);
 
   return (
     <div className="average-progress">

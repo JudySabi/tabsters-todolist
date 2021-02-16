@@ -12,7 +12,7 @@ const ListTask = ({ listTask, filters }) => {
       : listTask.sort((a, b) => (a.id > b.id ? 1 : -1));
   }
   return (
-    <div class="list-task row row-cols-1 row-cols-md-3 g-4">
+    <div className="list-task row row-cols-1 row-cols-md-3 g-4">
       {/* map les tasks et retourne status est true */}
       {listTask.map((elem) => {
         return (
@@ -32,7 +32,7 @@ const ListTask = ({ listTask, filters }) => {
             </div>
           )) ||
           // Si tout les champs des status sont vides
-          ((completed === "") & (inProgress === "") & (todo === "") && (
+          (completed === "" && inProgress === "" && todo === "" && (
             <div key={elem.id}>
               <Task data={elem} />
             </div>
